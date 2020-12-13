@@ -1,0 +1,7 @@
+*.class
+*.cache
+*.log
+target/
+.bsp/
+.metals/
+.bloop/
