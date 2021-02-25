@@ -28,8 +28,7 @@ object Day7 {
   }
 
   def main(args: Array[String]) {
-    val lines =
-      Source.fromResource("input_day7.txt").getLines().toVector
+    val lines = inputToVector("input_day7.txt")
 
     val map = lines.map(parseLine(_)).toMap
 
