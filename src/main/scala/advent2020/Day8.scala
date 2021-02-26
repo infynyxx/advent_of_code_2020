@@ -1,7 +1,5 @@
 package advent2020
 
-import scala.collection.mutable.ArrayBuffer
-
 object Day8 {
   def main(args: Array[String]) {
     val lines = inputToVector("input_day8.txt");
